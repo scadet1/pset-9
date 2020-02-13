@@ -26,7 +26,7 @@ window.onload = init;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 document.getElementById("X-First").onclick = xTurn;
-document.getElementById("Y-First").onclick = oTurn;
+document.getElementById("O-First").onclick = oTurn;
 
 ///////////////////// FUNCTIONS /////////////////////////////////////
 function init() {
@@ -84,12 +84,13 @@ function getWinner() {
       board[condition[1]] === board[condition[2]]
     ) {
       winner = board[condition[0]];
-      if(winner) === "X"){
+      if(winner === "X"){
         winX++;
-        document.getElementById("xscore").innerHTML = winX;
-      if(winner) === "O"){
+        document.getElementById("xScore").innerHTML = winX;
+      }
+      if(winner === "O"){
         winO++;
-        document.getElementById("oscore").innerHTML = winO;
+        document.getElementById("oScore").innerHTML = winO;
       }
     }
   });
