@@ -84,6 +84,13 @@ function getWinner() {
       board[condition[1]] === board[condition[2]]
     ) {
       winner = board[condition[0]];
+      if(winner) === "X"){
+        winX++;
+        document.getElementById("xscore").innerHTML = winX;
+      if(winner) === "O"){
+        winO++;
+        document.getElementById("oscore").innerHTML = winO;
+      }
     }
   });
 
