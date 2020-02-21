@@ -15,7 +15,7 @@ let turn;
 let win;
 let choose;
 let winX = 0;
-let winY = 0;
+let winO = 0;
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
 const squares = Array.from(document.querySelectorAll("#board div"));
