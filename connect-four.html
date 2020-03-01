@@ -1,66 +1,31 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
-    <link href="css/connect-four.css" rel="stylesheet" type="text/css" />
-    <script defer src="js/connect-four.js"></script>
 
-    <title>Connect Four</title>
-  </head>
+	<head>
+		<title>Connect Four</title>
+		<link rel="stylesheet" href="css/connect-four.css"/>
+		<script defer src="js/connect-four.js"></script>
+	</head>
+
+
   <body>
-    <h1>connect 4</h1>
 
-    <div class="container wrap" id="board">
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
+		<div id="header">
+			<div id="menu">
+				<div class="link-wrapper"><a class="menu-link" href="index.html">Home</a></div>
+				<div class="link-wrapper"><a class="menu-link" href="tic-tac-toe.html">Tic-Tac-Toe</a></div>
+				<div class="link-wrapper"><a class="menu-link" href="brick-breaker.html">Brick Breaker</a></div>
+			</div>
+		</div>
 
-    </div>
-
-</body>
+<h1>Connect Four</h1>
+<h2>Play with the computer</h2>
+<div>
+	<h2 id = "player_bttn">Player: Yellow | Computer: Red</h2>
+</div>
+<canvas id="canvas" width="200" height= "100"></canvas>
+ </body>
 
 </html>
